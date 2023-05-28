@@ -1,0 +1,25 @@
+.navbar {
+    position: relative;
+    min-height: 50px;
+    margin-bottom: 0px;
+    border: 1px solid transparent;
+}
+
+.bg-primary{
+    color: #fff;
+    background-color: #6495ED;
+}
+
+.nav .open>a, .nav .open>a:focus, .nav .open>a:hover {
+    background-color: #eee0;
+    border-color: #337ab7;
+}
+
+.nav>li>a:focus, .nav>li>a:hover {
+    text-decoration: none;
+    background-color: #c8b5b500;
+}
+
+body {
+    font-family: "Open Sans";
+}

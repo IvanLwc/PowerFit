@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
+
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+    font-weight: bold;
+    margin: 5;
+    font-size: 20px;
+    color: #6495ED;
+}
+
+input {
+    background-color: #eee; 
+    border: none;
+    padding: 12px 15px;
+    margin: 8px 0;
+    width: 100%;
+    border-radius: 10px;
+}
+
+input[type=submit],button {
+    border-radius: 15px;
+    background-color: #6495ED;
+    border: 1px solid #6495ED;
+    color: #FFFFFF;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 12px 45px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    transition: transform 80ms ease-in;
+    margin: 5px;
+}
+
+form {
+    background-color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 50px;
+    height: 100%;
+    text-align: center;
+}
+
+.main-logo{
+    margin-top: 50px;
+    margin-bottom: 5px;
+    border-radius: 25px;
+    height: 250px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.20);
+}
+
+.login {
+    margin: 10px 50px 50px 50px;
+    height: auto;
+    border-radius: 20px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.20);
+    padding-bottom: 50px;
+}
+
+.buttons{
+    width: 200px;
+}
+
+.bg {
+    background-image: url("../background.gif");
+    background-size: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Montserrat', sans-serif;
+    height: 100vh;
+}
+
+.navbar {
+    position: relative;
+    min-height: 50px;
+    margin-bottom: 0px;
+    border: 1px solid transparent;
+}
+
+.bg-primary{
+    color: #fff;
+    background-color: #6495ED;
+}
+
+.nav .open>a, .nav .open>a:focus, .nav .open>a:hover {
+    background-color: #eee0;
+    border-color: #337ab7;
+}
+
+.nav>li>a:focus, .nav>li>a:hover {
+    text-decoration: none;
+    background-color: #c8b5b500;
+}
